@@ -21,7 +21,7 @@ driver.get("https://automationexercise.com/signup")
 sleep(1)
 
 driver.find_element(By.NAME, "name").send_keys("abab")
-driver.find_element(By.XPATH, "//input[@data-qa='signup-email']").send_keys("6060@outlook.com")
+driver.find_element(By.XPATH, "//input[@data-qa='signup-email']").send_keys("9090@outlook.com")
 
 driver.find_element(By.XPATH, "//button[@data-qa='signup-button']").click()
 
